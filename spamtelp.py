@@ -93,8 +93,8 @@ banner="""
 if __name__ == '__main__':
     os.system("clear")
     print (banner)
-    print ("\033[34;1m+++\033[33;1mSPAM\033[34;1m \033[33;1mKE NOMOR \033[34;1m\033[33;1mSIAPA\033[34;1m")
-    no=input(" \033[31;1mPILIH No Target\033[31;1m(\033[35;1m8×××\033[36;1m)\033[35;1m:\033[1;94m ")
+    print ("\033[34;1m\033[33;1mSPAM\033[34;1m \033[33;1mKE NOMOR \033[34;1m\033[33;1mSIAPA\033[34;1m")
+    no=input(" \033[31;1mNo Target\033[31;1m(\033[35;1m8×××\033[36;1m)\033[35;1m:\033[1;94m ")
     while True:
         try:
             call()
